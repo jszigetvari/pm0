@@ -120,7 +120,6 @@ void daemon_task();
 
 void help(FILE *fd, char const * const en) {
     fprintf( fd,
-	     "\n"
 #ifdef _GNU_SOURCE
 	     "Usage: %s -t|--timeout <min>"
 #ifdef WITH_LIBCONFIG
